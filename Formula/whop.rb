@@ -1,26 +1,26 @@
 class Whop < Formula
   desc "Build and manage Whop apps from your terminal"
   homepage "https://whop.com/developers/"
-  version "0.10.1"
+  version "0.11.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/whopio/whop-public-cli/releases/download/v0.10.1/whop-darwin-arm64.tar.gz"
-      sha256 "4b6732799c8df0ff6804db72421f36384335ec1db9605e58de805573aa0b335c"
+      url "https://github.com/whopio/whop-public-cli/releases/download/v0.11.0/whop-darwin-arm64.tar.gz"
+      sha256 "4a903966228eafcdbc1826261c7402a38b196c3c55a70290f70ef42e10339d65"
     else
-      url "https://github.com/whopio/whop-public-cli/releases/download/v0.10.1/whop-darwin-x64.tar.gz"
-      sha256 "2ab30b37801ea05aa8a9a0804870e6b460a404ca8659a6c5cf252dfed192f59f"
+      url "https://github.com/whopio/whop-public-cli/releases/download/v0.11.0/whop-darwin-x64.tar.gz"
+      sha256 "405cf241b77bd4a0da8b2fdc209b7bc4945c3938bac68b0da458e0fd97a038de"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/whopio/whop-public-cli/releases/download/v0.10.1/whop-linux-arm64.tar.gz"
-      sha256 "ef917d0157be8ebd14936fe0c856d67aea305b6955f79857c7608a47a960d4de"
+      url "https://github.com/whopio/whop-public-cli/releases/download/v0.11.0/whop-linux-arm64.tar.gz"
+      sha256 "06497fdb537ebef0c46e8f04e07616c8cf48b58e84629131583ac33473e38603"
     else
-      url "https://github.com/whopio/whop-public-cli/releases/download/v0.10.1/whop-linux-x64.tar.gz"
-      sha256 "ae8b0ea8d70a927475072fdd62d4c4a11087f2e15ed57aac46739edc3e0df2dc"
+      url "https://github.com/whopio/whop-public-cli/releases/download/v0.11.0/whop-linux-x64.tar.gz"
+      sha256 "f65d084a2ec6f0ff03a858214f949cd21ba36047af86dcaaf552eb1e87241e3c"
     end
   end
 
